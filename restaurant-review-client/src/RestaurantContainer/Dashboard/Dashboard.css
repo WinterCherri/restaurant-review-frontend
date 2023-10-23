@@ -1,0 +1,17 @@
+.padded-box {
+    background-color: #ccc; /* Component background color */
+    padding: 20px; /* Add padding to the component */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 200px; /* Adjust the width as needed */
+    text-align: center; /* Center the text horizontally */
+    position: relative;
+    left: 300px;
+    top: 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    border: 1px #060b26
+    
+}
+
+.reviews-number {
+    font-size: 50px;
+}
