@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Dashboard.css';
+import ChatGPTComponents from '../../components/chatgpt';
 
 const Dashboard = props => {
   return (<header className="main-dashboard">
@@ -13,6 +14,7 @@ const Dashboard = props => {
           reviews in the queue
         </p>
     </div>
+    <ChatGPTComponents/> /* */
   </header>);
 };
 
